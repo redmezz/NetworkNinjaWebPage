@@ -2,3 +2,9 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+
+.imageBackground {
+  background-image: url("Pictures/programming_doodle.jpeg");
+  background-color: #cccccc;
+
+}
