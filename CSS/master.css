@@ -1,10 +1,67 @@
 body {
-  font-family: "Montserrat";
+  font-family: "Arial";
   text-align: center;
 }
 
-.imageBackground {
-  background-image: url("Pictures/programming_doodle.jpeg");
-  background-color: #cccccc;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial-Black"
+}
 
+/* Headings */
+.big_heading {
+  font-family: "Arial-Black"
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 5% 7%;
+}
+
+.section-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+.bg-azure {
+  background-color: #f0ffff;
+}
+
+.required-software h1, h2, h3, h4, h5, h6 {
+  padding: 5% 0% 5%;
+}
+
+/* Classes */
+
+.topic-heading {
+  padding-bottom: 5%;
+}
+
+.topic-list {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.topic-heading {
+  text-align: left;
+}
+
+.avhe-sys-restart {
+  text-align: center;
+  font-style: italic;
+  padding: 10% 0% 10%;
+}
+
+/* ID's */
+
+#topics {
+  color: #f0ffff;
+}
+
+#AVHE {
+  text-align: left;
 }
