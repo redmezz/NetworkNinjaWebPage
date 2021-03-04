@@ -171,15 +171,244 @@
 
         </div>
 
+        <div class="setup">
+
+          <h2>Setup</h2>
+
+          <p>
+            Once the blue screens have processed, the virtual desktop will appear.
+            The virtual desktop should be expanded to max to save confusion (because
+            if not, there will be a task bar for the host computer & a taskbar for
+            the virtual AVHE desktop.)
+          </p>
+          <p>
+            You will notice all applicable medical applications will be on the desktop
+            & some bonus software such as MS Project, MS Publisher, MS Visio, as well
+            as the common Office software (Outlook, Word, PowerPoint & Access).
+          </p>
+
+          <h3>Setup Outlook</h3>
+          <p>
+            Outlook should be setup if you want to send & receive encrypted email.
+            To setup Outlook for the first time:
+          </p>
+          <ul>
+            <li>Open Outlook. In the upper left corner select File > Options</li>
+            <li>General tab < Personalize section > replace initials with your initials.</li>
+            <li>Mail tab > check the 'Always check spelling efore sending.'</li>
+            <li>Trust Center tab > Trust Center Settings... A new popup should open</li>
+            <li>Email Security > check 'Add digital signature to outgoing messages'</li>
+            <li>Within that same Email Security tab > Settings...</li>
+            <li>Signing Certificate Hash Algorithm change from SHA1 to SHA512.</li>
+            <li>Select OK > Publish to GAL > 2 pop up boxes proceed, hit ok. Close settings.</li>
+          </ul>
+
+          <h3>Find your Personal Network folder (H: drive)</h3>
+          <p>
+            Your personal network folder should appear in File Explorer. This is where
+            you will find your Desktop and Documents.
+          </p>
+          <p>
+            In some cases, a shortcut for personal network drive or office network
+            drives, can be mapped or a shortcut can be placed on your virtual desktop.
+            <a href="\\xqpzfs01.med.ds.osd.mil\user$\xqpzhomedirectory">Click This
+            link to open that shortcut while on AVHE.</a>
+          </p>
+
+          <h3>Map Office Network Drives (if needed)</h3>
+          <p>
+            To map the office network drives, open Windows Explorer (folder icon).
+          </p>
+          <img src="pictures\drives\map network drive.png" alt="">
+          <img src="pictures\drives\map network drive2.png" alt="">
+
+        </div>
+
+        <div class="access-issue-resolution">
+
+          <h2>Access Issues & Quick Resolutions</h2>
+
+          <p>
+            Citrix Workspace & InstallRoot have to be installed on the computer.
+            Sometimes when errors happen and connection isn't consistent, resetting
+            the AVHE user account is a good solution.
+          </p>
+          <ul>
+            <li> <a href="https://avhe.health.mil/Citrix/AVHEWeb/">AVHE website</a></li>
+            <li>Desktops tab</li>
+            <li>Details</li>
+            <li>Restart</li>
+          </ul>
+
+          <p>
+            For additional issues, we reccomend opening a ticket with the GSC for
+            further troubleshooting.
+          </p>
+          <p>
+            There are multiple ways to create a ticket.
+          </p>
+          <ul>
+            <li>Call 1-800-600-9332 (CONUS), or by using the appropriate country
+            code for OCONUS.</li>
+            <li>Create a ticket at the <a href="https://support-gsc.health.mil">GSC website</a></li>
+          </ul>
+          <p>To log a support ticket, please search 'AVHE' at the Remedy Center
+          Request Management module.</p>
+          <p>Regardless of whether you call or email DHAGSC, please include the
+          following information within the ticket:</p>
+          <ol>
+            <li>Name; including middle initial and previous last name if changed recently</li>
+            <li>Current email address</li>
+            <li>Contact phone number, include cell if you telework frequently</li>
+            <li>Screen captures of any error messages</li>
+            <li>Description of the problem to your best knowledge</li>
+            <li>Name of other user(s) experiencing similar problems</li>
+            <li>Version number of the following:</li>
+            <ul>
+              <li>Windows 10 (type 'WINVER' from a command prompt). Optional, but helpful</li>
+              <li>Citrix Receiver or Citrix Workspace App</li>
+              <li>InstallRoot</li>
+              <li>ActiveClient (example - 7.1.0.210 or later is preferred). Again,
+              not required but helpful.</li>
+            </ul>
+          </ol>
+
+        </div>
+
+        <div class="account-creation">
+
+          <h2>Account Creation</h2>
+          <p>
+            You should have an AVHE account already, try logging in first.
+            If you have account issues, follow the directions below:
+          </p>
+          <a href="mailto:DHAGSC@mail.mil?subject=AVHE_Account_Creation_Request">Email DHA
+            GSC for account creation and include the following:</a>
+          <ul>
+            <li>Full name</li>
+            <li>EDIPI (located on back of CAC, a.k.a. DOD ID)</li>
+            <li>Email (your mail.mil)</li>
+            <li>Callback number</li>
+            <li>Location: U.S. Air Force Academy</li>
+            <li>Site Access: USAFA and Ft. Carson</li>
+            <li>What access: (choose only those that apply to you):
+            <ul>
+              <li>AHLTA</li>
+              <li>CHCS</li>
+              <li>DHA Desktop</li>
+              <li>DMLSS</li>
+              <li>Essentris</li>
+              <li>ADLS GoLearn</li>
+            </ul> </li>
+          </ul>
+          <p>An incident number (8 digits) should be sent to your email.</p>
+
+        </div>
+
       </div>
 
     </section>
 
     <section id="CAC">
 
-      <div class="container-fluid">
+      <div class="container-fluid bg-dark">
 
         <div class="">
+
+          <h2>Encrypted Emails</h2>
+          <p>
+            You will need to add certificates to your new CAC to access old
+            Encrypted Emails for Outlook. <a href="https://ara-5.csd.disa.mil">This website</a>
+            , or <a href="https://arlea-6.csd.disa.mil">this one.</a>
+          </p>
+          <p>
+            Click one of the links above and use your Authentiation cert. Then click Accept.
+          </p>
+          <p>Click: I Accept</p>
+          <img src="pictures\cac\image001.png" alt="">
+          <br>
+          <br>
+          <br>
+          <p>Click: Recover</p>
+          <img src="pictures\cac\image002.png" alt="">
+          <br>
+          <br>
+          <br>
+          <p>Click: OK</p>
+          <img src="pictures\cac\image004.png" alt="">
+          <br>
+          <br>
+          <br>
+          <p>Click: Download</p>
+          <img src="pictures\cac\image005.png" alt="">
+          <br>
+          <br>
+          <br>
+          <p>Click Open at the bottom</p>
+          <img src="pictures\cac\image006.png" alt="">
+          <br><br><br>
+          <p>Click next</p>
+          <img src="pictures\cac\image007.png" alt="">
+          <br><br><br>
+          <p>Continue next until you come to the password section. Follow the
+          image and copy the password into the text box.</p>
+          <img src="pictures\cac\image009.png" alt="">
+          <br><br><br>
+          <p>Continue next until you can Finish and close the prompt.</p>
+          <img src="pictures\cac\image011.png" alt="">
+          <br><br><br>
+          <p>You should receive a pop-up stating: </p>
+          <img src="pictures\cac\image012.png" alt="">
+          <p>Select 'Return to Key List' and import all certificates needed.</p>
+
+
+        </div>
+
+        <div class="at-home-computers">
+
+          <p>To utilize your CAC on GOvernment or home computers use one of the
+          following: </p>
+          <ul>
+            <li>CAC reader built into the laptop or tablet</li>
+            <li>External CAC reader</li>
+            <li>Keyboard CAC reader. Systems has plenty of these.</li>
+          </ul>
+          <p>For External CAC Readers or Keyboards, plug in the USB and allow
+            drivers to load (they will do this automatically).</p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="Clinical-Apps">
+
+      <div class="container-fluid bg-azure">
+
+        <h2>Clinical Apps</h2>
+
+        <div class="AHLTA-training">
+
+          <h3>AHLTA Training</h3>
+
+          <p>
+            If you need to receive training for JKO AHLTA Live classes, please
+            follow these directions:
+          </p>
+          <ul>
+            <li>Click on the Start Button</li>
+            <li>Right click on 'This PC'</li>
+            <li>Go down to 'More' and select 'Properties'</li>
+            <li>Take note of your computer name (starts with XQPZ...)</li>
+            <li>Install Firefox via the Software Center if it's not already installed.</li>
+            <ul>
+              <li>Select Start, or the magnifying glass at the bottom taskbar
+              to search for programs.</li>
+              <li>Search 'Software Center' and open the program</li>
+              <li>Find Firefox and install</li>
+            </ul>
+          </ul>
 
         </div>
 
