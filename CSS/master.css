@@ -1,46 +1,59 @@
-body {
+body, html {
   font-family: "Arial";
-  text-align: center;
+  background-color: #343a40!important;
+  color: #f0ffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Arial-Black"
-}
-
-h2 {
-  text-align: center;
+  font-family: "Arial-Black";
+  padding: 5% 0 5%;
 }
 
 /* Headings */
 .big_heading {
-  font-family: "Arial-Black"
+  font-weight: bolder;
   font-size: 3.5rem;
   line-height: 1.5;
-  font-weight: bold;
-  padding: 5% 7%;
+  text-align: center;
 }
 
-.section-title {
-  font-size: 3rem;
-  line-height: 1.5;
+.medium-heading {
+  font-weight: bold;
+}
+
+/* Navbar */
+.PersonalNav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* Searchbar */
+.searchBar {
+  padding: 7% 5%;
+}
+
+/* Forum */
+.forumBackground {
+  text-align: center;
+}
+
+.forumHeadingIcon {
+  padding-left: 2%;
+  padding-right: 2%;
+  color: yellow;
 }
 
 /* Containers */
-
 .container-fluid {
   padding: 5% 15%;
 }
 
-.bg-azure {
-  background-color: #f0ffff;
-}
-
-.required-software h1, h2, h3, h4, h5, h6 {
-  padding: 5% 0% 5%;
+.required-software {
+  padding: 5% 0 5%;
 }
 
 /* Classes */
-
 .topic-heading {
   padding-bottom: 5%;
 }
@@ -57,24 +70,5 @@ h2 {
 .avhe-sys-restart {
   text-align: center;
   font-style: italic;
-  padding: 10% 0% 10%;
-}
-
-/* ID's */
-
-#topics {
-  color: #f0ffff;
-}
-
-#AVHE {
-  text-align: left;
-}
-
-#CAC {
-  color: #f0ffff;
-  text-align: left;
-}
-
-#Clinical-Apps {
-  text-align: left;
+  padding: 10% 0 10%;
 }
