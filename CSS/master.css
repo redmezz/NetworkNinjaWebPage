@@ -36,12 +36,63 @@ h1, h2, h3, h4, h5, h6 {
 /* Forum */
 .forumBackground {
   text-align: center;
+  background-color: #343a40;
+}
+
+.forumBackground a {
+  text-decoration: none;
+  color: azure;
+  font-size: 20px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.forumBackground i {
+  display: inline-block;
+}
+
+.forumNavbar {
+  display: inline-block;
+  padding: 0;
+}
+
+.forumNavBar li {
+  display: inline-block;
+}
+
+.forumNavbar li:hover {
+  background:#555;
+  text-shadow: 2px 2px black;
+}
+
+.forumNavbar li:hover ul {
+  display:block;
+}
+
+.forumNavbar li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+.forumNavbar li ul li {
+  background: #555;
+  display:block;
+}
+
+.forumNavbar li ul li a {
+  display:block !important;
+}
+
+.forumNavbar li ul li:hover {
+  background: #666;
 }
 
 .forumHeadingIcon {
   padding-left: 2%;
   padding-right: 2%;
   color: yellow;
+  display: inline-block;
 }
 
 /* Containers */
