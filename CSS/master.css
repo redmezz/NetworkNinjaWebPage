@@ -1,6 +1,6 @@
 body, html {
   font-family: "Arial";
-  background-color: #343a40!important;
+  background-color: #343a40;
   color: #f0ffff;
 }
 
@@ -17,16 +17,49 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.medium-heading {
-  font-weight: bold;
-}
-
 /* Navbar */
 .PersonalNav {
   position: fixed;
   width: 100%;
   top: 0;
 }
+
+/* Splash Page */
+.NN_img {
+  position: relative;
+  left: 10%;
+  top: 40%;
+  width: 50%;
+  height: auto;
+}
+
+.splashHeading {
+  font-family: 'Ravi Prakash', cursive;
+}
+
+.splashHeadingSpan {
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Searchbar */
 .searchBar {
