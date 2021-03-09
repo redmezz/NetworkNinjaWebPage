@@ -1,7 +1,7 @@
-body, html {
+body {
   font-family: "Arial";
-  background-color: #343a40;
   color: #f0ffff;
+  background-color: #121212;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,20 +28,31 @@ h1, h2, h3, h4, h5, h6 {
 .NN_img {
   position: relative;
   left: 10%;
-  top: 40%;
+  top: 60%;
   width: 50%;
   height: auto;
 }
 
 .splashHeading {
   font-family: 'Ravi Prakash', cursive;
+  position: relative;
+  top: 60%;
 }
 
 .splashHeadingSpan {
   color: yellow;
 }
 
+.splashbtn {
+  margin-left: 200px;
+}
 
+/*.divider {
+  width: 30px;
+  height: auto;
+  display: inline-block;
+}
+*/
 
 
 

@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('localhost','username', 'password','database_name') or
+$db = mysqli_connect('214.77.10.246','username', 'password','database_name') or
 die('Error connecting to the MySQL server.');
  ?>
 
